@@ -1,0 +1,22 @@
+{
+  "name": "learn-mongodb",
+  "version": "1.0.0",
+  "description": "use express.js to connect with mongodb",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mongodb": "^6.17.0",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7"
+  }
+}
