@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.send("This service for learning mongoDB with express by @poommieiei :)");
+  res.send("This service for learning mongoDB with express.js by @poommieiei :D");
 });
 
 module.exports = app;

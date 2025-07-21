@@ -15,7 +15,7 @@ let db;
 async function connectDB() {
   try {
     await client.connect();
-    db = client.db('testpoom');
+    db = client.db(process.env.DATABASE_NAME);
     
     console.log('Connected to MongoDB');
   } catch (err) {
